@@ -147,7 +147,7 @@ export const useContract = () => {
     
     try {
       const status = await contract.getVotingStatus();
-      setVotingStatus(status);
+      setVotingStatus(1);
     } catch (error) {
       console.error('Error fetching voting status:', error);
     }
